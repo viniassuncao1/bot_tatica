@@ -606,4 +606,4 @@ class Bot(discord.Client):
                     await log_channel.send(embed=log_embed)
 
 client = Bot()
-client.run(os.getenv('Subistitua pelo seu token'))
+client.run(os.getenv('TOKEN_DISCORD'))
